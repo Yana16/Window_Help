@@ -1,0 +1,1180 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+
+    <!-- <link href="assets/css/bootstrap.css" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/css/normalize.css" rel="stylesheet" />
+    <!-- <link href="assets/css/bootstrap.css" rel="stylesheet"> -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/fotorama.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="assets/slick/slick.css" /> -->
+    <title>Window help</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo">
+            <img
+              src="assets/img/header/logo.svg"
+              class="img-logo"
+              alt="логотип сайту"
+            />
+          </a>
+          <ul class="menu">
+            <li class="menu-item">
+              <a href="#" class="menu-link">Ремонт вікон</a>
+            </li>
+          </ul>
+          <div class="btn_stack">
+            <button class="header_btn popup_engineer_btn">
+              Викликати майстра
+            </button>
+            <button class="header_schedule">Без вихідних - 24/7</button>
+          </div>
+
+          <ul class="menu-contacts">
+            <li class="menu-item">
+              <a class="phone" href="tel:380989596966">+38 (098) 959-69-66</a>
+            </li>
+            <li class="menu-item">
+              <a class="phone" href="tel:380686116087">+38 (068) 611-60-87</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="adv">
+        <div class="container">
+          <marquee scrolldelay="40" style="padding: 20px; font-size: 30px">
+            ОТРИМАЙ ПОСТІЙНУ ЗНИЖКУ - ЗАПРОСИ ДРУГА!
+          </marquee>
+        </div>
+      </section>
+      <section class="headline">
+        <div class="container">
+          <div class="row">
+            <div class="block">
+              <h1 class="title">
+                <span class="wind-help">Window Help - </span>
+                <br />кваліфікований підхід до ремонту вікон та дверей
+              </h1>
+              <div class="title-elements">
+                <div class="elements">
+                  <div class="elements-img">
+                    <img src="./assets/img/main/1.png" alt="#" />
+                  </div>
+                  <div class="material-desc">
+                    <p>Сучасні матеріали та доступні ціни</p>
+                  </div>
+                </div>
+                <div class="elements">
+                  <div class="elements-img">
+                    <img src="./assets/img/main/2.png" alt="#" />
+                  </div>
+                  <div class="material-desc">
+                    <p>Сучасні матеріали та доступні ціни</p>
+                  </div>
+                </div>
+                <div class="elements">
+                  <div class="elements-img">
+                    <img src="./assets/img/main/3.png" alt="#" />
+                  </div>
+                  <div class="material-desc">
+                    <p>Сучасні матеріали та доступні ціни</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-form">
+              <div id="form1">
+                <form class="form-block" id="submitTelegram1">
+                  <h2>ВИКЛИКАТИ МАЙСТРА</h2>
+                  <input
+                    class="form-control"
+                    name="user_name"
+                    type="text"
+                    placeholder="Введіть ваше ім'я"
+                    required
+                  />
+                  <input
+                    class="form-control1"
+                    name="user_phone"
+                    type="tel"
+                    placeholder="Введіть номер телефону"
+                  />
+                  <input
+                    class="form-control2"
+                    name="form_discount"
+                    id="discount1"
+                    type="text"
+                    placeholder="Знижка"
+                    value=""
+                  />
+                  <button class="btn-block button" name="submit" type="submit">
+                    Замовити дзвінок
+                  </button>
+                </form>
+              </div>
+              <div id="form2">
+                <img
+                  src="./assets/img/main/line.png"
+                  class="form2-img"
+                  alt="#"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="our-service">
+        <div class="container">
+          <h2 class="info-title">Наші послуги</h2>
+          <div class="our-service-block">
+            <div class="our-service-block-element">
+              <div class="service-element service-element1">
+                <div class="service-elemet-block">
+                  <img
+                    src="./assets/img/main/Group21-pic.png"
+                    class="service-elemet-block-pic"
+                    alt="#"
+                  />
+                  <p>Ремонт вікон</p>
+                </div>
+                <p2
+                  >Устанавливаем пластиковые окна Rehau от проверенного
+                  производителя с гарантией качества</p2
+                >
+              </div>
+              <div class="service-element service-element2">
+                <div class="service-elemet-block">
+                  <img
+                    src="./assets/img/main/Group22-pic.png"
+                    class="service-elemet-block-pic"
+                    alt="#"
+                  />
+                  <p>Ремонт вікон</p>
+                </div>
+                <p2
+                  >Устанавливаем пластиковые окна Rehau от проверенного
+                  производителя с гарантией качества</p2
+                >
+              </div>
+              <div class="service-element service-element3">
+                <div class="service-elemet-block">
+                  <img
+                    src="./assets/img/main/Group23-pic.png"
+                    class="service-elemet-block-pic"
+                    alt="#"
+                  />
+                  <p>Ремонт вікон</p>
+                </div>
+                <p2
+                  >Устанавливаем пластиковые окна Rehau от проверенного
+                  производителя с гарантией качества</p2
+                >
+              </div>
+              <div class="service-element service-element4">
+                <div class="service-elemet-block">
+                  <img
+                    src="./assets/img/main/Group24-pic.png"
+                    class="service-elemet-block-pic"
+                    alt="#"
+                  />
+                  <p>Ремонт вікон</p>
+                </div>
+                <p2
+                  >Устанавливаем пластиковые окна Rehau от проверенного
+                  производителя с гарантией качества</p2
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="info">
+        <div class="container">
+          <h2 class="info-title">Про нас</h2>
+          <div class="info-block">
+            <div class="info-company">
+              <div class="news">
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Maxime rerum delectus ea dolores fugiat quaerat hic
+                  accusantium nesciunt eaque voluptatum veniam repellendus
+                  architecto libero, ipsum, quia repudiandae dolorem blanditiis
+                  ullam. Lorem ipsum dolor, sit amet consectetur adipisicing
+                  elit. Maxime rerum delectus ea dolores fugiat quaerat hic
+                  accusantium nesciunt eaque voluptatum veniam repellendus
+                  architecto libero, ipsum, quia repudiandae dolorem blanditiis
+                  ullam. Lorem ipsum dolor, sit amet consectetur adipisicing
+                  elit. Maxime rerum delectus ea dolores fugiat quaerat hic
+                  accusantium nesciunt eaque voluptatum veniam repellendus
+                  architecto libero, ipsum, quia repudiandae dolorem blanditiis
+                  ullam. Lorem ipsum dolor, sit amet consectetur adipisicing
+                  elit. Maxime rerum delectus ea dolores fugiat quaerat hic
+                  accusantium nesciunt eaque voluptatum veniam repellendus
+                  architecto libero, ipsum, quia repudiandae dolorem blanditiis
+                  ullam. Lorem ipsum dolor, sit amet consectetur adipisicing
+                  elit. Maxime rerum delectus ea dolores fugiat quaerat hic
+                  accusantium nesciunt eaque voluptatum veniam repellendus
+                  architecto libero, ipsum, quia repudiandae dolorem blanditiis
+                  ullam.
+                </p>
+              </div>
+
+              <div class="info-company-pic">
+                <img
+                  class="info-img"
+                  src="./assets/img/main/news.png"
+                  alt="#    "
+                />
+              </div>
+            </div>
+            <div class="info-service-block">
+              <div class="info-service">
+                <div class="info-service-element">
+                  <img
+                    src="./assets/img/main/prof1.png"
+                    class="info-service-pic"
+                    alt=""
+                  />
+                </div>
+                <div class="info-service-text">
+                  <p>
+                    <span class="info-service-element-desc"
+                      >профессионализм</span
+                    >
+                    <br />Бригада профессиональных мастеров по монтажу и
+                    обслуживанию
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-service">
+                <div class="info-service-element">
+                  <img
+                    src="./assets/img/main/price2.png"
+                    class="info-service-pic"
+                    alt=""
+                  />
+                </div>
+                <div class="info-service-text">
+                  <p>
+                    <span class="info-service-element-desc"
+                      >профессионализм</span
+                    >
+                    <br />Бригада профессиональных мастеров по монтажу и
+                    обслуживанию
+                  </p>
+                </div>
+              </div>
+              <div class="info-service">
+                <div class="info-service-element">
+                  <img
+                    src="./assets/img/main/agreement3.png"
+                    class="info-service-pic"
+                    alt=""
+                  />
+                </div>
+                <div class="info-service-text">
+                  <p>
+                    <span class="info-service-element-desc"
+                      >профессионализм</span
+                    >
+                    <br />Бригада профессиональных мастеров по монтажу и
+                    обслуживанию
+                  </p>
+                </div>
+              </div>
+              <div class="info-service">
+                <div class="info-service-element">
+                  <img
+                    src="./assets/img/main/loyal4.png"
+                    class="info-service-pic"
+                    alt=""
+                  />
+                </div>
+                <div class="info-service-text">
+                  <p>
+                    <span class="info-service-element-desc"
+                      >профессионализм</span
+                    >
+                    <br />Бригада профессиональных мастеров по монтажу и
+                    обслуживанию
+                  </p>
+                </div>
+              </div>
+              <div class="info-service">
+                <div class="info-service-element">
+                  <img
+                    src="./assets/img/main/speed5.png"
+                    class="info-service-pic"
+                    alt=""
+                  />
+                </div>
+                <div class="info-service-text">
+                  <p>
+                    <span class="info-service-element-desc"
+                      >профессионализм</span
+                    >
+                    <br />Бригада профессиональных мастеров по монтажу и
+                    обслуживанию
+                  </p>
+                </div>
+              </div>
+              <div class="info-service">
+                <div class="info-service-element">
+                  <img
+                    src="./assets/img/main/service6.png"
+                    class="info-service-pic"
+                    alt=""
+                  />
+                </div>
+                <div class="info-service-text">
+                  <p>
+                    <span class="info-service-element-desc"
+                      >профессионализм</span
+                    >
+                    <br />Бригада профессиональных мастеров по монтажу и
+                    обслуживанию
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience">
+        <div class="container">
+          <div class="description">
+            <div class="desc-item">
+              <span>10</span> <br />
+              <p>Років успішної діяльності</p>
+            </div>
+            <div class="desc-item">
+              <span>5000</span> <br />
+              <p>Задоволених клієнтів</p>
+            </div>
+            <div class="desc-item">
+              <span>8</span> <br />
+              <p>Кваліфікованих спеціалстів</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="material">
+        <div class="container">
+          <h2 class="info-title">Ремонт вікон</h2>
+          <div class="material-block">
+            <div class="material-pic">
+              <img class="pic" src="./assets/img/material/1.jpg" alt="#" />
+              <p class="product_description">
+                Сітка : Найпоширеніший і найекономічніший варіант. Вона
+                відрізняється простотою виміру, установки та догляду.
+              </p>
+            </div>
+            <div class="material-pic">
+              <img class="pic" src="./assets/img/material/1.jpg" alt="#" />
+              <p class="product_description">
+                Сітка : Найпоширеніший і найекономічніший варіант. Вона
+                відрізняється простотою виміру, установки та догляду.
+              </p>
+            </div>
+            <div class="material-pic">
+              <img class="pic" src="./assets/img/material/1.jpg" alt="#" />
+              <p class="product_description">
+                Сітка : Найпоширеніший і найекономічніший варіант. Вона
+                відрізняється простотою виміру, установки та догляду.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h2 class="info-title">Наша команда</h2>
+          <div class="contariner-team">
+            <div class="card">
+              <div class="image-container">
+                <img class="team-img" src="./assets/img/stuff/1.jpeg" alt="" />
+              </div>
+              <h3>Глеб</h3>
+              <p>Майстер</p>
+              <div class="form__item">
+                <div class="form__label"></div>
+                <div data-ajax="true" class="rating rating__set" id="test1">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test1"
+                        value="1"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test1"
+                        value="2"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test1"
+                        value="3"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test1"
+                        value="4"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test1"
+                        value="5"
+                        name="rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="rating__value"></div>
+                </div>
+              </div>
+
+              <a href="comment1.html">Залишити відгук</a>
+            </div>
+            <div class="card">
+              <div class="image-container">
+                <img class="team-img" src="./assets/img/stuff/2.jpeg" alt="" />
+              </div>
+              <h3>Олег</h3>
+              <p>Майстер</p>
+              <div class="form__item">
+                <div class="form__label"></div>
+                <div data-ajax="true" class="rating rating__set" id="test2">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test2"
+                        value="1"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test2"
+                        value="2"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test2"
+                        value="3"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test2"
+                        value="4"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test2"
+                        value="5"
+                        name="rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="rating__value"></div>
+                </div>
+              </div>
+              <a href="comment2.html">Залишити відгук</a>
+            </div>
+            <div class="card">
+              <div class="image-container">
+                <img class="team-img" src="./assets/img/stuff/3.jpeg" alt="" />
+              </div>
+              <h3>Пітер</h3>
+              <p>Майстер</p>
+              <div class="form__item">
+                <div class="form__label"></div>
+                <div data-ajax="true" class="rating rating__set" id="test3">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test3"
+                        value="1"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test3"
+                        value="2"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test3"
+                        value="3"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test3"
+                        value="4"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test3"
+                        value="5"
+                        name="rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="rating__value"></div>
+                </div>
+              </div>
+              <a href="comment3.html">Залишити відгук</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="material">
+        <div class="container">
+          <h2 class="info-title">Жалюзі та ролети</h2>
+          <div class="container">
+            <div class="material-block">
+              <div class="material-pic">
+                <img class="pic" src="./assets/img/material/1.jpg" alt="#" />
+                <p class="product_description">
+                  Сітка : Найпоширеніший і найекономічніший варіант. Вона
+                  відрізняється простотою виміру, установки та догляду.
+                </p>
+              </div>
+              <div class="material-pic">
+                <img class="pic" src="./assets/img/material/1.jpg" alt="#" />
+                <p class="product_description">
+                  Сітка : Найпоширеніший і найекономічніший варіант. Вона
+                  відрізняється простотою виміру, установки та догляду.
+                </p>
+              </div>
+              <div class="material-pic">
+                <img class="pic" src="./assets/img/material/1.jpg" alt="#" />
+                <p class="product_description">
+                  Сітка : Найпоширеніший і найекономічніший варіант. Вона
+                  відрізняється простотою виміру, установки та догляду.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h2 class="info-title">Наша команда</h2>
+          <div class="contariner-team">
+            <div class="card">
+              <div class="image-container">
+                <img class="team-img" src="./assets/img/stuff/1.jpeg" alt="" />
+              </div>
+              <h3>Глеб</h3>
+              <p>Майстер</p>
+              <div class="form__item">
+                <div class="form__label"></div>
+                <div data-ajax="true" class="rating rating__set" id="test4">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test4"
+                        value="1"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test4"
+                        value="2"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test4"
+                        value="3"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test4"
+                        value="4"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test4"
+                        value="5"
+                        name="rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="rating__value"></div>
+                </div>
+              </div>
+              <a href="comment4.html">Залишити відгук</a>
+            </div>
+            <div class="card">
+              <div class="image-container">
+                <img class="team-img" src="./assets/img/stuff/2.jpeg" alt="" />
+              </div>
+              <h3>Олег</h3>
+              <p>Майстер</p>
+              <div class="form__item">
+                <div class="form__label"></div>
+                <div data-ajax="true" class="rating rating__set" id="test5">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test5"
+                        value="1"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test5"
+                        value="2"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test5"
+                        value="3"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test5"
+                        value="4"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test5"
+                        value="5"
+                        name="rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="rating__value"></div>
+                </div>
+              </div>
+              <a href="comment5.html">Залишити відгук</a>
+            </div>
+            <div class="card">
+              <div class="image-container">
+                <img class="team-img" src="./assets/img/stuff/3.jpeg" alt="" />
+              </div>
+              <h3>Пітер</h3>
+              <p>Майстер</p>
+              <div class="form__item">
+                <div class="form__label"></div>
+                <div data-ajax="true" class="rating rating__set" id="test6">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test6"
+                        value="1"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test6"
+                        value="2"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test6"
+                        value="3"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test6"
+                        value="4"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test6"
+                        value="5"
+                        name="rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="rating__value"></div>
+                </div>
+              </div>
+              <a href="comment6.html">Залишити відгук</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="material">
+        <div class="container">
+          <h2 class="info-title">Маскітні сітки</h2>
+          <div class="material-block">
+            <div class="material-pic">
+              <img class="pic" src="./assets/img/material/1.jpg" alt="#" />
+              <p class="product_description">
+                Сітка : Найпоширеніший і найекономічніший варіант. Вона
+                відрізняється простотою виміру, установки та догляду.
+              </p>
+            </div>
+            <div class="material-pic">
+              <img class="pic" src="./assets/img/material/1.jpg" alt="#" />
+              <p class="product_description">
+                Сітка : Найпоширеніший і найекономічніший варіант. Вона
+                відрізняється простотою виміру, установки та догляду.
+              </p>
+            </div>
+            <div class="material-pic">
+              <img class="pic" src="./assets/img/material/1.jpg" alt="#" />
+              <p class="product_description">
+                Сітка : Найпоширеніший і найекономічніший варіант. Вона
+                відрізняється простотою виміру, установки та догляду.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <h2 class="info-title">Наша команда</h2>
+          <div class="contariner-team">
+            <div class="card">
+              <div class="image-container">
+                <img class="team-img" src="./assets/img/stuff/1.jpeg" alt="" />
+              </div>
+              <h3>Глеб</h3>
+              <p>Майстер</p>
+              <div class="form__item">
+                <div class="form__label"></div>
+                <div data-ajax="true" class="rating rating__set" id="test7">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test7"
+                        value="1"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test7"
+                        value="2"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test7"
+                        value="3"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test7"
+                        value="4"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test7"
+                        value="5"
+                        name="rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="rating__value"></div>
+                </div>
+              </div>
+              <a href="comment7.html">Залишити відгук</a>
+            </div>
+            <div class="card">
+              <div class="image-container">
+                <img class="team-img" src="./assets/img/stuff/2.jpeg" alt="" />
+              </div>
+              <h3>Олег</h3>
+              <p>Майстер</p>
+              <div class="form__item">
+                <div class="form__label"></div>
+                <div data-ajax="true" class="rating rating__set" id="test8">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test8"
+                        value="1"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test8"
+                        value="2"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test8"
+                        value="3"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test8"
+                        value="4"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test8"
+                        value="5"
+                        name="rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="rating__value"></div>
+                </div>
+              </div>
+              <a href="comment8.html">Залишити відгук</a>
+            </div>
+            <div class="card">
+              <div class="image-container">
+                <img class="team-img" src="./assets/img/stuff/3.jpeg" alt="" />
+              </div>
+              <h3>Пітер</h3>
+              <p>Майстер</p>
+              <div class="form__item">
+                <div class="form__label"></div>
+                <div data-ajax="true" class="rating rating__set" id="test9">
+                  <div class="rating__body">
+                    <div class="rating__active"></div>
+                    <div class="rating__items">
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test9"
+                        value="1"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test9"
+                        value="2"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test9"
+                        value="3"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test9"
+                        value="4"
+                        name="rating"
+                      />
+                      <input
+                        type="radio"
+                        class="rating__item"
+                        data-master="test9"
+                        value="5"
+                        name="rating"
+                      />
+                    </div>
+                  </div>
+                  <div class="rating__value"></div>
+                </div>
+              </div>
+              <a href="comment9.html">Залишити відгук</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="portfolio">
+        <div class="container">
+        <h2 class="info-title">Наші роботи</h2>
+        <div class="wrapper">
+          <div class="slider">
+            <div class="slider__item">
+              <img src="./assets/img/slider/aluminum.jpg" alt="" />
+            </div>
+            <div class="slider__item">
+              <img src="./assets/img/slider/cold.jpg" alt="" />
+            </div>
+            <div class="slider__item">
+              <img src="./assets/img/slider/plastic.jpg" alt="" />
+            </div>
+            <div class="slider__item">
+              <img src="./assets/img/slider/warm.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        </div>
+      </section> -->
+
+      <section class="portfolio">
+        <div class="container container-fotorama">
+          <h2 class="info-title">Наші роботи</h2>
+          <div
+            class="fotorama"
+            data-arrows="true"
+            data-click="true"
+            data-swipe="true"
+          >
+            <img src="./assets/img/slider/aluminum.jpg" />
+            <img src="./assets/img/slider/cold.jpg" />
+            <img src="./assets/img/slider/plastic.jpg" />
+            <img src="./assets/img/slider/plastic.jpg" />
+          </div>
+        </div>
+      </section>
+
+      <section class="sale">
+        <div class="container">
+          <div class="row">
+            <div class="sale-block">
+              <h2 class="sale_title">Акція - 60%</h2>
+              <p class="sale_subtitle">
+                Встигни забрати свою знижку! <br />Тільки до
+                <span class="number">18</span> грудня!
+              </p>
+              <div class="timer1" id="timer">
+                <h3 class="timer1-text">до завершення:</h3>
+                <div class="container1">
+                  <div class="numbers1">
+                    <div><span id="days">08</span></div>
+                    <div class="description1">Днів</div>
+                  </div>
+                  <div class="numbers1">
+                    <div><span id="hours">18</span></div>
+                    <div class="description1">Годин</div>
+                  </div>
+                  <div class="numbers1">
+                    <div><span id="minutes">33</span></div>
+                    <div class="description1">Хвилин</div>
+                  </div>
+                  <div class="numbers1">
+                    <div><span id="seconds">44</span></div>
+                    <div class="description1">Секунд</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sale-block-form">
+              <div id="form3">
+                <form class="form-block2" id="submitTelegram3">
+                  <h2>ВИКЛИКАТИ МАЙСТРА</h2>
+                  <input
+                    class="form-control"
+                    name="user_name"
+                    required
+                    type="text"
+                    placeholder="Введіть ваше ім'я"
+                  />
+                  <input
+                    class="form-control1"
+                    name="user_phone"
+                    type="tel"
+                    requiured
+                    placeholder="Введіть номер телефону"
+                  />
+                  <input
+                    class="form-control2"
+                    name="form_discount"
+                    id="discount2"
+                    type="text"
+                    required
+                    placeholder="Знижка"
+                    value=""
+                  />
+                  <button class="btn-block button" name="submit" type="submit">
+                    Замовити дзвінок
+                  </button>
+                </form>
+              </div>
+              <div id="form4">
+                <img
+                  src="./assets/img/main/line.png"
+                  class="form2-img"
+                  alt="#"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback">
+        <div class="container">
+          -+
+          <div id="disqus_thread">
+            <script>
+              (function () {
+                var d = document,
+                  s = d.createElement("script");
+                s.src =
+                  "https://http-localhost-8888-test-1.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------Discount------------------ -->
+      <div class="discount-widjet">
+        <p>Ваша знижка</p>
+        <p class="input-disc"><span id="disc-wid"></span> %</p>
+      </div>
+
+      <!-- ---------Discount------------------ -->
+
+      <!-- ---------Modal------------------- -->
+      <div class="popup_engineer" data-modal>
+        <form class="form-block1" id="submitTelegram2">
+          <button type="button" class="popup_close">&times;</button>
+          <h2>ВИКЛИКАТИ МАЙСТРА</h2>
+          <input
+            class="form-control"
+            name="user_name"
+            required
+            type="text"
+            placeholder="Введіть ваше ім'я"
+          />
+          <input
+            class="form-control1"
+            name="user_phone"
+            type="tel"
+            required
+            placeholder="Введіть номер телефону"
+          />
+          <input
+            class="form-control2"
+            name="form_discount"
+            id="discount"
+            type="text"
+            required
+            placeholder="Знижка"
+            value=""
+          />
+          <button class="btn-block button" name="submit" type="submit">
+            Замовити дзвінок
+          </button>
+        </form>
+      </div>
+      <!-- ---------Modal------------------- -->
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-block">
+          <a class="footer-logo">
+            <img src="assets/img/main/logo-footer.svg" alt="логотип сайту" />
+          </a>
+
+          <div class="footer-text">© ООО “Window help” 2024</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- <script src="./js/slick.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
+  </body>
+</html>
