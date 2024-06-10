@@ -861,8 +861,6 @@ margin: 0 auto;
 @media (max-width: 1600px){
     .container{
         max-width: 1400px;
-        margin-left: 0px;
-        margin-right: 0px;
     }
     .block {
         margin-left: 20px;
@@ -912,7 +910,7 @@ margin: 0 auto;
             width: 210px;
         }
         .sale-block-form{
-            margin-left: 480px;
+            margin-left: 380px;
             margin-top: 50px;
         }
         .sale {
@@ -955,6 +953,9 @@ margin: 0 auto;
     .btn_stack{
         display: flex;
         flex-direction: column;
+    }
+    .sale-block-form{
+        margin-top: 120px;
     }
     .header_btn, .header_schedule{
         margin-right: 0;
@@ -1101,6 +1102,9 @@ margin: 0 auto;
         padding: 0px; 
         font-size: 12px;
     }
+    .footer-block {
+        margin-top: unset;
+    }
     .container-fotorama{
         align-items: unset;
         margin-bottom: 60px;
@@ -1201,6 +1205,25 @@ margin: 0 auto;
     align-items: center;
 }
 }
+
+@media (max-width: 768px){
+    .container{
+        max-width: 480px;
+    }
+    .desc-item p {
+        font-size: 20px;
+        line-height: 25px;
+        margin: unset;
+    }
+    .timer1-text {
+        margin-top: 8px;
+    }
+    .sale-block-form {
+        margin-top: unset;
+    }
+}
+
+
 
 @media (max-width: 480px){
     .container{
