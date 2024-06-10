@@ -1285,6 +1285,15 @@ margin: 0 auto;
             max-width: 350px;
             height: 450px;
     }
+    .service-element, .service-element1, .service-element2, .service-element3, .service-element4 {
+        height: 180px;
+    }
+    .service-element2 {
+        background-size: unset;
+    }
+    .news p {
+        margin-top: 10px;
+    }
     .product_description{
         max-width: 350px;
         font-size: 20px;
