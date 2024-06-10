@@ -27,14 +27,15 @@ function initRating(rating) {
   }
 }
 let ratingValue;
+let ratingActive;
 //Инициализация переменных
 function initRatingVars(rating) {
-  // ratingActive = rating.querySelector(".rating__active");
+  ratingActive = rating.querySelector(".rating__active");
   ratingValue = rating.querySelector(".rating__value");
 }
 
 //Изменяем ширину активных звезд
-function setRatingActiveWidth(index = ratingValue.innerHTML, ratingActive) {
+function setRatingActiveWidth(index = ratingValue.innerHTML) {
   const ratingActiveWidth = index / 0.05;
   jQuery(ratingActive).width(`${ratingActiveWidth}%`);
   // ratingActive.style.width = `${ratingActiveWidth}%`;
