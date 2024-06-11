@@ -887,9 +887,6 @@ margin: 0 auto;
         padding-right: unset;
     }
 
-    /* .block {
-        margin-left: 20px;
-    } */
     .form-block {
         margin-left: 0px}
         #form2 {
@@ -1094,10 +1091,6 @@ margin: 0 auto;
         margin-right: 0px;
         scale: 0.5;
     }
-    /* footer {
-        padding: 0px;
-        width: 769px;
-    } */
     .footer-text {
         padding: 0px; 
         font-size: 12px;
@@ -1120,7 +1113,6 @@ margin: 0 auto;
         width: 140px;
     }
     .discount-widjet {
-        /* cursor: pointer; */
         position: fixed;
         left: -150px;
         bottom: 15%;
@@ -1129,11 +1121,7 @@ margin: 0 auto;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
         box-shadow: 3px 3px 10px #bebebe;
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* align-items: center; */
         transition: left .2s linear;
-        /* z-index: 1; */
     }
     .discount-widjet:hover {
         left: 0px;
@@ -1351,7 +1339,7 @@ margin: 0 auto;
     text-align: center;
     font-size: 18px;
     line-height: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
     }
     .timer1-text{
         font-size: 25px;
@@ -1405,7 +1393,6 @@ margin: 0 auto;
         width: 140px;
     }
     .discount-widjet {
-        /* cursor: pointer; */
         position: fixed;
         left: -150px;
         bottom: 15%;
@@ -1414,11 +1401,7 @@ margin: 0 auto;
         border-bottom-right-radius: 10px;
         border-top-right-radius: 10px;
         box-shadow: 3px 3px 10px #bebebe;
-        /* display: flex; */
-        /* flex-direction: column; */
-        /* align-items: center; */
         transition: left .2s linear;
-        /* z-index: 1; */
     }
     .discount-widjet:hover {
         left: 0px;
@@ -1437,6 +1420,7 @@ margin: 0 auto;
     }
     .timer1 {
         padding: 10px;
+        margin-top: 30px;
     }
     .number{
         font-size: 25px;
@@ -1453,29 +1437,27 @@ margin: 0 auto;
         line-height: unset;
         margin-top: 10px;
     }
-    .service-element1 {
-        background-size: 140%;
-    }
+  
     .service-element p2 {
         max-width: 380px;
         font-size: 20px;
         line-height: 30px;
     }
     .service-element, .service-element1, .service-element2, .service-element3, .service-element4 {
-        height: 180px; 
-        max-width: 400px;
+        background-size: 500px 400px;
+        height: unset;
     }
+   
     .info-service p {
         line-height: 30px;
         font-size: 20px;
-        width: 350px;
+        max-width: 280px;
     }
+
     .info-service {
         max-width: 400px;
 }
-.popup, .popup_engineer, .popup_calc_end {
-    left: -140px;
-}
+
 footer {
     width: unset;
 }
