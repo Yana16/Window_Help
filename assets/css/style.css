@@ -1222,7 +1222,7 @@ margin: 0 auto;
     }
     .nav{
         flex-direction: column;
-        background-color: orangered;
+        background-color: green;
     }
     .logo{
         scale: 2;
