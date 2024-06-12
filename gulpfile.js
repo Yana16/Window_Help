@@ -4,11 +4,11 @@ const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
 
-// const ghPages = require("gulp-gh-pages");
+const ghPages = require("gulp-gh-pages");
 
-// gulp.task("deploy", function () {
-//   return gulp.src("./dist/**/*").pipe(ghPages());
-// });
+gulp.task("deploy", function () {
+  return gulp.src("./dist/**/*").pipe(ghPages());
+});
 
 const dist = "./dist/";
 // const dist = "C:/MAMP/htdocs/test";
