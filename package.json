@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "deploy": "egh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
