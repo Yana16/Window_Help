@@ -6,8 +6,8 @@ body{
     line-height: 22px;
     color:#4c4646;
     background-color: #E5E5E5;
-    margin: 0 auto;
-    /* padding: 0px 5px; */
+    width: 100%;
+    padding: 0px 5px;
 }
 a{
     text-decoration: none;
@@ -1196,7 +1196,7 @@ margin: 0 auto;
 
 @media (max-width: 768px){
     .container{
-        max-width: 480px;
+        max-width: 450px;
     }
     .desc-item p {
         font-size: 20px;
@@ -1213,7 +1213,7 @@ margin: 0 auto;
 
 
 
-@media (max-width: 480px){
+@media (max-width: 450px){
     .container{
         max-width: none;
     }
@@ -1222,7 +1222,6 @@ margin: 0 auto;
     }
     .nav{
         flex-direction: column;
-        background-color: green;
     }
     .logo{
         scale: 2;
@@ -1445,7 +1444,6 @@ margin: 0 auto;
     .service-element, .service-element1, .service-element2, .service-element3, .service-element4 {
         background-size: 500px 400px;
         height: unset;
-        background-color: orange;
     }
    
     .info-service p {
