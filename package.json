@@ -8,7 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://yana16.github.io/NewProject1",
+  "homepage": "https://yana16.github.io/Window_Help",
   "browserslist": [
     "> 1%",
     "not dead"
@@ -21,6 +21,7 @@
     "babel-loader": "^9.1.2",
     "browser-sync": "^2.29.3",
     "core-js": "^3.31.0",
+    "gh-pages": "^6.1.1",
     "gulp": "^4.0.2",
     "prettier": "3.2.5",
     "webpack": "^5.86.0",
