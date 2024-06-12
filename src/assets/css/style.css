@@ -1222,6 +1222,7 @@ margin: 0 auto;
     }
     .nav{
         flex-direction: column;
+        background-color: green;
     }
     .logo{
         scale: 2;
@@ -1444,6 +1445,7 @@ margin: 0 auto;
     .service-element, .service-element1, .service-element2, .service-element3, .service-element4 {
         background-size: 500px 400px;
         height: unset;
+        background-color: orange;
     }
    
     .info-service p {
