@@ -1268,7 +1268,7 @@ margin: 0 auto;
 
 @media (max-width: 450px){
     .container{
-        max-width: 450px;
+        max-width: 300px;
     }
     main{
         width: unset;
@@ -1512,3 +1512,115 @@ footer {
     width: unset;
 }
 }
+@media (max-width: 300px){
+    .container{
+        max-width: 300px;
+    }
+    .header_btn, .header_schedule {
+        max-width: 250px;
+    }
+    .menu {
+        font-size: 40px;
+    }
+    .header_btn, .header_schedule {
+        font-size: 20px;
+    }
+
+    .header_schedule {
+        background: #fff url(../img/header/clock.png) 14px center no-repeat;
+        background-color: #3B3A63;
+        border: 1px solid #3B3A63;
+    }
+    .header_btn  {
+        background: #fff url(../img/header/edit.png) 14px center no-repeat;
+        background-color: #EF7F04;
+        border: 1px solid #EF7F04;
+    }
+    .menu-contacts {
+        font-size: 20px; 
+    }
+    /* .elements-img{
+        scale: 0.8;
+    } */
+    .pic {
+        max-width: 300px;
+    }
+    .title-elements {
+        display: flex;
+        margin-left: unset;
+        width: unset;
+        justify-content: center;
+    }
+    .material-desc {
+        max-width: 90px;
+    }
+    .material-desc p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .form-block2, .form-block, .form-block1 {
+        max-width: 250px;
+    }
+    .form2-img {
+        max-width: 280px;
+    }
+    .form-control, .form-control1, .form-control2 {
+        color: #424268;
+        border: 1px solid #E2E2E2;
+        font-weight: 400;
+        font-size: 14px;
+        background-color: #E2E2E2;
+        width: 220px;
+        height: 40px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+    .form-block {
+        display: block;
+        height: 350px;
+        padding: 15px 15px 70px 15px;
+    }
+    .form-block2 {
+        padding: 15px 15px 70px 15px;
+    }
+    .sale-block-form {
+        margin-right: unset;
+    }
+    .logo {
+        scale: 1.8;
+    }
+    .title {
+        max-width: 300px;
+    }
+    .title-elements { 
+        margin-right: unset;
+    }
+    .service-element, .service-element1, .service-element2, .service-element3, .service-element4 {
+        padding: 20px;
+    }
+
+    #form2 {
+        left: -140px;
+        top: -28px
+    }
+    .info-service p {
+        line-height: 25px;
+        font-size: 18px; 
+        margin: 0px 0px 0px 10px;
+    }
+    .info-service {
+        padding: 5px;
+    }
+    .info-service-pic{
+        max-width: 100px
+    }
+    .desc-item p {
+        font-size: 14px;
+        padding: 3px;
+    }
+    .sale-block {
+        margin-left: 70px;
+    }
+}
+
+
