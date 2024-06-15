@@ -1327,13 +1327,19 @@ margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     .form-block{
-        margin-left: 0px;
+        margin-left: 0px; 
+         max-width: 220px;
     }
+   
     #form2{
-        left: -174px;
+        left: -148px;
     }
+    .form2-img {
+        width: 300px;
+    }   
     .main-form{
         display: flex;
         flex-direction: column;
@@ -1406,7 +1412,7 @@ margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left: 120px;
+        margin-left: 60px;
         margin-bottom: 80px;
     }
     .sale{
@@ -1475,7 +1481,7 @@ margin: 0 auto;
         font-size: 50px;
     }
     .material-desc, .material-desc1 {
-        width: 400px;
+        width: 100%;
     }
     .material-desc1 {
         color: #4c4646;
@@ -1495,8 +1501,7 @@ margin: 0 auto;
         left: 0px;
     }
     .desc-item p{
-        font-size: 16px;
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.2;
     }
     .desc-item span {
@@ -1518,7 +1523,7 @@ margin: 0 auto;
         margin: 30px 0 30px;
     }
     .form-block2, .form-block, .form-block1 {
-        width: 268px;
+        width: 220px;
         height: 348px;
     }
     .sale_title {
@@ -1540,12 +1545,13 @@ margin: 0 auto;
    
     .info-service p {
         line-height: 30px;
-        font-size: 20px;
+        font-size: 14px;
         max-width: 280px;
     }
 
     .info-service {
         max-width: 400px;
+            padding: 5px;
 }
 
 footer {
@@ -1553,6 +1559,17 @@ footer {
 }
 .info-service-pic {
     max-width: 89px;
+}
+.form-control, .form-control1, .form-control2 {
+    color: #424268;
+    border: 1px solid #E2E2E2;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #E2E2E2;
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 30px;
 }
 }
 @media (max-width: 420px){
@@ -1577,22 +1594,38 @@ footer {
     .info-service-pic {
         max-width: 89px;
     }
+    .material-desc p, .material-desc1 p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .form-control, .form-control1, .form-control2 {
+        color: #424268;
+        border: 1px solid #E2E2E2;
+        font-weight: 400;
+        font-size: 14px;
+        background-color: #E2E2E2;
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+        margin-bottom: 30px;
+    }
 }
 @media (max-width: 375px){
     .header_btn, .header_schedule {
-        font-size: calc(20px + (10 + 10 * 0.7) * ((100vw - 300px) / 1600));
+        font-size: calc(20px + (10 + 10 * 0.7) * ((100vw - 375px) / 1600));
     }
     .menu {
-        font-size: calc(40px + (20 + 0 * 0.7) * ((100vw - 300px) / 1600));
+        font-size: calc(40px + (20 + 0 * 0.7) * ((100vw - 375px) / 1600));
     }
     .menu-contacts {
         font-size: 25px;
     }
     .title {
-        font-size: calc(30px + (20 + 20 * 0.7) * ((100vw - 420px) / 1600));
+        font-size: calc(30px + (20 + 20 * 0.7) * ((100vw - 375px) / 1600));
     }
     .wind-help {
-        font-size: calc(30px + (20 + 20 * 0.7) * ((100vw - 420px) / 1600));
+        font-size: calc(30px + (20 + 20 * 0.7) * ((100vw - 375px) / 1600));
     }
     .pic {
         height: 350px;
@@ -1600,6 +1633,24 @@ footer {
     }
     .info-service-pic {
         max-width: 90px;
+    }
+    .material-desc p, .material-desc1 p {
+        font-size: calc(18px + (2 + 2 * 0.7) * ((100vw - 375px) / 1600));
+        
+    }
+    .sale-block-form {
+    margin-right: unset;
+    }
+    .form-control, .form-control1, .form-control2 {
+        color: #424268;
+        border: 1px solid #E2E2E2;
+        font-weight: 400;
+        font-size: 14px;
+        background-color: #E2E2E2;
+        width: 100%;
+        height: 40px;
+        padding: 5px;
+        margin-bottom: 30px;
     }
 
 }
@@ -1677,6 +1728,11 @@ footer {
     }
     .info-service-pic{
         max-width: 89px;
+    }
+    .material-desc p, .material-desc1 p {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
     }
     /* .header_btn, .header_schedule {
         font-size: 20px;
