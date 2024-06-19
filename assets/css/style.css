@@ -693,7 +693,7 @@ margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: .4s;
+    transition: .2s;
 }
 .discount-widjet p {
     color: #2F2F51;
@@ -758,7 +758,7 @@ margin: 0 auto;
 .discount-widjet{
 	cursor: pointer;
 	position: fixed;
-	left: -150px;
+	left: 0px;
 	bottom: 15%;
 	background: #fff;
 	padding: 20px;
@@ -772,7 +772,7 @@ margin: 0 auto;
     z-index: 1;
 }
 .discount-widjet:hover{
-    left: 0px
+    left: -180px
 }
 
 .discount-widjet p {
@@ -1350,6 +1350,9 @@ margin: 0 auto;
 .material-desc, .material-desc1 {
     width: 100%;
 }
+.discount-widjet:focus{
+    left: -180px
+}
 }
 
 @media (max-width: 768px){
@@ -1448,6 +1451,9 @@ margin: 0 auto;
     .info-service p {
         line-height: 30px;
         font-size: 25px;
+    }
+    .discount-widjet:focus{
+        left: -180px
     }
 }
 
@@ -1762,6 +1768,9 @@ footer {
 #form2, #form4 {
     top: -30px;
 }
+.discount-widjet:focus{
+    left: -180px
+}
 
 }
 @media (max-width: 420px){
@@ -1812,6 +1821,20 @@ footer {
     #form2, #form4 {
         top: -30px;
     }   
+    .discount-widjet {
+        position: fixed;
+        left: 0px;
+        bottom: 15%;
+        background: #fff;
+        padding: 20px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 3px 3px 10px #bebebe;
+        transition: left .2s linear;
+    }
+    .discount-widjet:focus{
+        left: -180px
+    }
    
 }
 @media (max-width: 375px){
@@ -1876,6 +1899,20 @@ footer {
     }
     #form2 {
         top: -30px;
+    }
+    .discount-widjet {
+        position: fixed;
+        left: 0px;
+        bottom: 15%;
+        background: #fff;
+        padding: 20px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 3px 3px 10px #bebebe;
+        transition: left .2s linear;
+    }
+    .discount-widjet:focus{
+        left: -180px
     }
 }
 @media (max-width: 300px){
@@ -1982,6 +2019,20 @@ footer {
     }
     .container1 {
         margin-top: 3%;
+    }
+    .discount-widjet {
+        position: fixed;
+        left: 0px;
+        bottom: 15%;
+        background: #fff;
+        padding: 20px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        box-shadow: 3px 3px 10px #bebebe;
+        transition: left .2s linear;
+    }
+    .discount-widjet:focus{
+        left: -180px
     }
 }
     /* .header_btn, .header_schedule {
@@ -2100,6 +2151,6 @@ footer {
     /* p {
         max-width: 80px;
     }   */
-}
+
 
 
