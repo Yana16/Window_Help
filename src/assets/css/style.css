@@ -1253,7 +1253,7 @@ margin: 0 auto;
     }
     .discount-widjet {
         position: fixed;
-        left: -150px;
+        left: 0px;
         bottom: 15%;
         background: #fff;
         padding: 20px;
@@ -1263,7 +1263,7 @@ margin: 0 auto;
         transition: left .2s linear;
     }
     .discount-widjet:hover {
-        left: 0px;
+        left: -150px;
     }
     .desc-item p{
         font-size: 30px;
