@@ -1903,11 +1903,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 const discountMark = () => {
-  let discountTable = document.getElementById("disc-block");
+  let discountTable = document.querySelector(".discount-widjet");
+  // console.log(discountTable);
+
   discountTable.addEventListener("click", e => {
-    console.log("CLICK");
-    if (e.target) {
-      discountTable.classList.add("discount-widjet");
+    if (e.target.classList.contains("discount-widjet")) {
+      e.target.classList.toggle("close");
     }
   });
 };
