@@ -33,5 +33,5 @@ window.addEventListener("DOMContentLoaded", () => {
   timer(".container1", deadLine);
   initRatings();
   telegram();
-  // discountMark();
+  discountMark();
 });

@@ -1,11 +1,11 @@
-// const discountMark = () => {
-//   let discountTable = document.getElementsByClassName("discount-widjet")[0];
+const discountMark = () => {
+  let discountTable = document.getElementById("disc-block");
 
-//   discountTable.addEventListener("click", (e) => {
-//     console.log("CLICK");
-//     if (e.target) {
-//       discountTable.style.display = "none";
-//     }
-//   });
-// };
-// export default discountMark;
+  discountTable.addEventListener("click", (e) => {
+    console.log("CLICK");
+    if (e.target) {
+      discountTable.classList.add("discount-widjet");
+    }
+  });
+};
+export default discountMark;

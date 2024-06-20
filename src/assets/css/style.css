@@ -1590,10 +1590,11 @@ margin: 0 auto;
         border-top-right-radius: 10px;
         box-shadow: 3px 3px 10px #bebebe;
         transition: left .2s linear;
+
     }
-    .discount-widjet:focus {
+    /* .discount-widjet:focus {
         left: -150px;
-    }
+    } */
     .desc-item p{
         font-size: 18px;
         line-height: 1.2;
