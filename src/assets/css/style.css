@@ -68,25 +68,9 @@ p{
     justify-content: space-around;
 }
 
-/* .header_btn, 
-.header_schedule {
-    background: #fff url(../img/header/edit.png) 16px center no-repeat;
-    padding: 12px 19px 13px 47px;
-    background-color: #EF7F04;
-    height: 40px;
-    width: 219px;
-    border-radius: 3px;
-    font-weight: 600;
-    font-size: 16px;
-    color: white;
-    border: 1px solid  #EF7F04;
-    margin-right: 30px;
-} */
-
 
 
 .header_schedule {
-    /* background: #fff url(../img/header/clock.png) 16px center no-repeat; */
     background-color: #3B3A63;
     border: 1px solid  #3B3A63;
     color: white;
@@ -94,7 +78,6 @@ p{
     padding: 10px;
 }
 .header_btn {
-    /* background: #fff url(../img/header/clock.png) 16px center no-repeat; */
     background-color: #EF7F04;
     border: 1px solid  #EF7F04;
     color: white;
@@ -345,7 +328,6 @@ p{
     margin-bottom: 5px;
     border-radius: 100%;
     box-shadow: 0px 0px 12px 0px rgb(185 172 172 / 61%);
-    /* box-shadow: 5px 5px 10px rgb(78, 78, 78), -5px -5px 10px white; */
 }
 
 .team-img{
@@ -355,10 +337,8 @@ p{
     object-position: top;
     border-radius: 100%;
     box-shadow: 0px 0px 12px 0px rgb(185 172 172 / 61%);
-    /* box-shadow: 5px 5px 10px white, -5px -5px 10px rgb(78, 78, 78); */
 }
 .card p{
-    /* margin-bottom: 1.8em; */
     font-style: italic;
 }
 .icons{
@@ -378,7 +358,6 @@ p{
     text-decoration: none;
     color:  rgb(78, 78, 78);
     box-shadow: 0px 0px 12px 0px rgb(185 172 172 / 61%);
-    /* box-shadow: 5px 5px 10px rgb(78, 78, 78), -5px -5px 10px white; */
 }
 .card:hover .team-img{
     transition: all 0.2s linear;
@@ -717,7 +696,7 @@ margin: 0 auto;
     width: 20px;
     height: 20px;
     background-color: transparent;
-    background-image: url('../img/main/star.png'); /* Замените 'star.png' на путь к вашей звезде */
+    background-image: url('../img/main/star.png'); 
     background-size: cover;
     cursor: pointer;
   }
@@ -1013,10 +992,6 @@ margin: 0 auto;
         .container1 {
             margin-top: 20px;
         }
-        /* .sale-block-form{
-            margin-left: 360px;
-            margin-top: 50px;
-        } */
         
         .sale {
             background: #ffffff url(../img/sale/bg.jpg) top right no-repeat;
@@ -1040,17 +1015,13 @@ margin: 0 auto;
        
         .timer1 {
             margin-top: 60px;
-            /* max-width: 300px; */
 }
 #days, #hours, #minutes, #seconds {
     font-size: 60px;
 }
 }
 @media (max-width: 1000px){
-    /* .container{
-        max-width: 768px;
-    } */
-    
+
     .menu {
         font-size: 60px;
     }
@@ -1074,9 +1045,7 @@ margin: 0 auto;
         display: flex;
         flex-direction: column;
     }
-    /* .sale-block-form{
-        margin-top: 120px;
-    } */
+
     .header_btn, .header_schedule{
         margin-right: 0;
         margin-bottom: 30px;
@@ -1283,20 +1252,12 @@ margin: 0 auto;
         font-size: 40px;
         font-weight: bold;
     }
-    /* .info-title {
-        margin: 60px 0 60px;
-        font-size: 35px;
-    } */
+
     .form-block2 {
         width: 268px;
         height: 348px;
         margin-top: 50px;
     }
-    /* .form-block, .form-block1 {
-        width: 268px;
-        height: 348px;
-        margin-top: 50px;
-    } */
 
     .sale-block-form {
         margin-left: 0px;
@@ -1317,7 +1278,6 @@ margin: 0 auto;
 }
 .service-element p2 {
     width: 450px;
-    /* margin-left: 30px; */
     font-size: 30px;
     line-height: 40px;
 }
@@ -1353,31 +1313,21 @@ margin: 0 auto;
 }
 
 @media (max-width: 768px){
-    /* .container{
-        max-width: 450px;
-    } */
+
     .desc-item p {
         font-size: 20px;
         line-height: 25px;
         margin: unset;
     }
-    /* .timer1-text {
-        margin-top:20px;
-    } */
+
     .sale-block-form {
         margin-top: unset;
     }
     .sale_title {
         margin-bottom: unset;
         font-size: 60px;
-        /* margin-top: 20%; */
         line-height: 40px
     }
-    /* .sale_subtitle {
-        margin-top: unset;
-        font-size: calc(25px - (5 + 5 * 0.7) * ((100vw - 768px) / 1600));
-        line-height: 40px;
-    } */
     .sale-block {
         margin-top: 10%;
         margin-bottom: 10%;
@@ -1394,10 +1344,7 @@ margin: 0 auto;
         padding: 10px;
         margin-top: unset;
     }
-    /* .timer1-text {
-        font-size: calc(20px + (5 + 5 * 0.7) * ((100vw - 768px) / 1600));
-        margin-bottom: unset;
-    } */
+
     #days, #hours, #minutes, #seconds {
         font-size: calc(40px + (5 + 5 * 0.7) * ((100vw - 768px) / 1600));
     }
@@ -1425,10 +1372,7 @@ margin: 0 auto;
     .info-service-pic {
         max-width: 89px;
     }
-    /* .elements-img {
-        display: flex;
-        justify-content: center;
-    } */
+
     .material-desc, .material-desc1 {
         width: 100%;
     }
@@ -1454,9 +1398,7 @@ margin: 0 auto;
 
 
 @media (max-width: 450px){
-    /* .container{
-        max-width: 450px;
-    } */
+
     main{
         width: unset;
     }
@@ -1474,22 +1416,7 @@ margin: 0 auto;
         display: flex;
         flex-direction: column;
     }
-    /* .header_btn, .header_schedule{
-        margin-right: 0;
-        margin-bottom: 30px;
-        width: 100%;
-        font-size: 30px;
-        background-size: 40px;
-    } */
-
-    /* .header_btn {
-    
-        background-color: #EF7F04;
-        border-radius: 3px;
-        font-weight: 600;
-        color: white;
-        border: 1px solid #EF7F04;
-    } */
+ 
     .row, .row1 {
         flex-direction: column;
         align-items: center;
@@ -1554,20 +1481,7 @@ margin: 0 auto;
         gap: 80px;
         margin-top: 40px;
     }
-    /* .elements-img{
-        display: flex;
-        justify-content: center;
-    } */
-    /* .title{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 400px;
-    } */
-    /* .card{
-        margin-bottom: 60px;
-        width: 45%;
-    } */
+
     .card {
         font-size: 20px;
         line-height: 25px;
@@ -1589,8 +1503,8 @@ margin: 0 auto;
 
     .material-desc p, .material-desc1 p {
         font-size: 20px;
-        /* line-height: 30px;
-        text-align: center; */
+        font-weight: 400;
+        
     }
 
     .sale-block{
@@ -1614,7 +1528,6 @@ margin: 0 auto;
     text-align: center;
     font-size: calc(18px + (7 + 7 * 0.7) * ((100vw - 450px) / 1600));
     line-height: 20px;
-    /* margin-top: 30px; */
     }
     .timer1-text {
         font-size: calc(18px + (2 + 2 * 0.7) * ((100vw - 450px) / 1600));
@@ -1633,7 +1546,6 @@ margin: 0 auto;
     }
   
     .description1 {
-        /* margin-top: 15px; */
         font-size: calc(14px + (2 + 2 * 0.7) * ((100vw - 450px) / 1600));
     }
     .form-block2 {
@@ -1650,10 +1562,7 @@ margin: 0 auto;
     footer {
         padding: 0px;
     }
-    /* .footer-text {
-        padding: 0px; 
-        font-size: 12px;
-    } */
+  
     .container-fotorama{
         align-items: unset;
         margin-bottom: 60px;
@@ -1682,11 +1591,11 @@ margin: 0 auto;
         box-shadow: 3px 3px 10px #bebebe;
         transition: left .2s linear;
     }
-    .discount-widjet:hover {
+    .discount-widjet:focus {
         left: -150px;
     }
     .desc-item p{
-        font-size: 12px;
+        font-size: 18px;
         line-height: 1.2;
     }
     .desc-item span {
@@ -1699,14 +1608,13 @@ margin: 0 auto;
     .timer1 {
         padding: 10px;
         margin-top: unset;
+        margin-left: 10px;
     }
     .number{
         font-size: 25px;
         font-weight: bold;
     }
-    /* .info-title {
-        margin: 60px 0 60px;
-    } */
+
     .form-block2, .form-block, .form-block1 {
         width: 220px;
         height: 348px;
@@ -1727,11 +1635,6 @@ margin: 0 auto;
         background-size: 500px 400px;
         height: unset;
     }
-   
-    /* .info-service p {
-        line-height: 30px;
-        font-size: 18px;
-    } */
 
     .info-service {
         max-width: 400px;
@@ -1879,9 +1782,7 @@ footer {
     }
 }
 @media (max-width: 300px){
-    /* .container{
-        max-width: 300px;
-    } */
+
     .header_btn, .header_schedule {
         font-size: calc(20px + (10 + 10 * 0.7) * ((100vw - 300px) / 1600));
     }
@@ -1983,8 +1884,12 @@ footer {
     .container1 {
         margin-top: 3%;
     }
+    .desc-item p {
+        font-size: 20px;
 }
+.card {
+    font-size: 18px;
     
-
-
+}
+}
 
