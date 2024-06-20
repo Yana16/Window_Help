@@ -740,18 +740,23 @@ margin: 0 auto;
 	left: 0px;
 	bottom: 15%;
 	background: #fff;
-	padding: 20px;
+	padding: 20px 40px 20px 20px;
 	border-bottom-right-radius: 10px;
 	border-top-right-radius: 10px;
 	box-shadow: 3px 3px 10px #bebebe;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	transition: left .2s linear;
-    z-index: 1;
+	/* transition: left .2s linear;
+    z-index: 1; */
 }
-.discount-widjet:hover{
-    left: -150px
+
+
+.close{
+    display: flex;
+    left: -180px;
+    transition: left .2s linear;
+    z-index: 1;
 }
 
 .discount-widjet p {
@@ -1220,7 +1225,7 @@ margin: 0 auto;
     .material-desc, .material-desc1 {
         width: 140px;
     }
-    .discount-widjet {
+    /* .discount-widjet {
         position: fixed;
         left: 0px;
         bottom: 15%;
@@ -1230,10 +1235,10 @@ margin: 0 auto;
         border-top-right-radius: 10px;
         box-shadow: 3px 3px 10px #bebebe;
         transition: left .2s linear;
-    }
-    .discount-widjet:hover {
+    } */
+    /* .discount-widjet:hover {
         left: -150px;
-    }
+    } */
     .desc-item p{
         font-size: 30px;
         line-height: 40px;
@@ -1580,7 +1585,7 @@ margin: 0 auto;
     .material-desc1 {
         color: #4c4646;
     }
-    .discount-widjet {
+    /* .discount-widjet {
         position: fixed;
         left: 0px;
         bottom: 15%;
@@ -1592,7 +1597,7 @@ margin: 0 auto;
         transition: left .2s linear;
 
     }
-    /* .discount-widjet:focus {
+    .discount-widjet:focus {
         left: -150px;
     } */
     .desc-item p{

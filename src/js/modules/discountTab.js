@@ -1,10 +1,10 @@
 const discountMark = () => {
-  let discountTable = document.getElementById("disc-block");
+  let discountTable = document.querySelector(".discount-widjet");
+  // console.log(discountTable);
 
   discountTable.addEventListener("click", (e) => {
-    console.log("CLICK");
-    if (e.target) {
-      discountTable.classList.add("discount-widjet");
+    if (e.target.classList.contains("discount-widjet")) {
+      e.target.classList.toggle("close");
     }
   });
 };
