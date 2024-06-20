@@ -1895,23 +1895,19 @@ fotoramaVersion = "4.6.4", function (a, b, c, d, e) {
 /*!***************************************!*\
   !*** ./src/js/modules/discountTab.js ***!
   \***************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-const discountMark = () => {
-  let discountTable = document.getElementsByClassName("discount-widjet")[0];
-  discountTable.addEventListener("click", e => {
-    console.log("CLICK");
-    if (e.target) {
-      discountTable.style.display = "none";
-    }
-  });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (discountMark);
+// const discountMark = () => {
+//   let discountTable = document.getElementsByClassName("discount-widjet")[0];
+
+//   discountTable.addEventListener("click", (e) => {
+//     console.log("CLICK");
+//     if (e.target) {
+//       discountTable.style.display = "none";
+//     }
+//   });
+// };
+// export default discountMark;
 
 /***/ }),
 
@@ -15079,6 +15075,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_timer_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/timer.js */ "./src/js/modules/timer.js");
 /* harmony import */ var _modules_telegram_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/telegram.js */ "./src/js/modules/telegram.js");
 /* harmony import */ var _modules_discountTab_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/discountTab.js */ "./src/js/modules/discountTab.js");
+/* harmony import */ var _modules_discountTab_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_modules_discountTab_js__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _modules_rating_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./modules/rating.js */ "./src/js/modules/rating.js");
 
 
