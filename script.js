@@ -2037,7 +2037,7 @@ function itirationRating() {
   //Бегаем по всем рейтингам на странице
   for (let index = 0; index < ratings.length; index++) {
     const rating = ratings[index];
-    // console.log(rating);
+    console.log(rating);
     initRating(rating);
   }
 }
