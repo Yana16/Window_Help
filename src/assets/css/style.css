@@ -282,9 +282,8 @@ p{
 }
 
 .news {
-    padding: 50px;
+    padding: 30px;
 }
-
 .news p {
     color: #4c4646;
     font-size: 16px;
@@ -794,11 +793,6 @@ margin: 0 auto;
 }
 
 
-.info-img{
-    /* scale: 100%; */
-    float: right;
-    margin: 0px 0px 20px 30px;
-}
 
 
 ---------Star Rating-------------------
@@ -966,6 +960,9 @@ margin: 0 auto;
 @media (max-width: 1200px){
     .container, .container1{
         max-width: 1000px;
+    }
+    .header_btn {
+        margin-right: unset;
     }
     .btn_stack {
         display: grid;
@@ -1140,6 +1137,9 @@ margin: 0 auto;
         flex-direction: column;
         align-items: center;
     }
+    .container-team, .container-team1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
     .title-elements{
     justify-content: space-between;
     max-width: unset;
@@ -1155,6 +1155,10 @@ margin: 0 auto;
     text-align: center;
     margin-left: unset;
     margin-bottom: 100px;
+    }
+    .info-img {
+        scale: 100%; 
+        float: unset;
     }
     .card{
         font-size: 30px;
@@ -1314,6 +1318,7 @@ margin: 0 auto;
     line-height: 40px;
     margin: 0px 30px 50px;
     max-width: 100%;
+    margin-top: 30px;
 }
 .info-service {
     padding: 30px;
