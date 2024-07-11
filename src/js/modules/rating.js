@@ -11,7 +11,7 @@ function itirationRating() {
   //Бегаем по всем рейтингам на странице
   for (let index = 0; index < ratings.length; index++) {
     const rating = ratings[index];
-    console.log(rating);
+    // console.log(rating);
     initRating(rating);
   }
 }
@@ -96,8 +96,8 @@ async function setRatingValue(ratingValue, rating, masterId) {
     // console.log(response);
 
     if (response.ok) {
-      const result = await response.json();
-      const newRating = result.rating[0].avgAmount.toFixed(1);
+      // const result = await response.json();
+      // const newRating = result.rating[0].avgAmount.toFixed(1);
       getRating();
       // console.log(newRating);
       // console.log(result);
@@ -129,9 +129,13 @@ function getRating() {
     .then(function (data) {
       data.forEach((element) => {
         const masterId = element.id;
+        // console.log(masterId);
         const rate = element.avgAmount;
-        const ratingActive = jQuery(`div#${masterId}`).find(".rating__active");
-        setRatingActiveWidth(rate.toFixed(1), ratingActive);
+        // console.log(rate);
+        let ratingActive = jQuery(`div#${masterId}`).find(".rating__active");
+        // console.log(ratingActive);
+        setRatingActiveWidth(rate, ratingActive);
+
         jQuery(`div#${masterId}`).find(".rating__value").text(rate.toFixed(1));
       });
     });
