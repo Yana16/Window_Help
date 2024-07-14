@@ -741,8 +741,8 @@ margin: 0 auto;
   .popup_engineer_close,
   .popup_calc_end_close {
     position: absolute;
-    top: 0.5rem;
-    right: 1rem;
+    top: 0px;
+    left: 0px;
     font-size: 3rem;
     color: #3B3A63;
     border: none;
