@@ -1723,7 +1723,7 @@ footer {
 .popup_close,
 .popup_engineer_close,
 .popup_calc_end_close {
-  top: 0;
+    top: 0.5rem;
   right: 0;
   font-size: 2rem;
 }
