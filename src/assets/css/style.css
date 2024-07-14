@@ -741,8 +741,8 @@ margin: 0 auto;
   .popup_engineer_close,
   .popup_calc_end_close {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0.5rem;
+    right: 1rem;
     font-size: 3rem;
     color: #3B3A63;
     border: none;
@@ -1719,6 +1719,13 @@ footer {
 }
 #form2, #form4 {
     top: -30px;
+}
+.popup_close,
+.popup_engineer_close,
+.popup_calc_end_close {
+  top: 0;
+  right: 0;
+  font-size: 2rem;
 }
 
 }
