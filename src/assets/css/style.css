@@ -761,6 +761,13 @@ margin: 0 auto;
   z-index: 9;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.modal{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* display: block; */
+    transform: translate(-50%, -50%);
+}
 
 .status {
     color: blue;
@@ -1682,6 +1689,7 @@ margin: 0 auto;
     }
     .service-element, .service-element1, .service-element2, .service-element3, .service-element4 {
         background-size: 500px 400px;
+        width: unset;
         height: unset;
     }
 
