@@ -1515,9 +1515,9 @@ margin: 0 auto;
             height: 450px;
     }
     .popup_close, .popup_engineer_close, .popup_calc_end_close {
-        top: 0.2rem;
-        right: 0.5rem;
-        font-size: 2rem;
+        top: 1rem;
+        right: 2rem;
+        font-size: 3rem;
     }
 
     .news p {
