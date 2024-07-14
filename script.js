@@ -2045,7 +2045,6 @@ function itirationRating() {
 //Инициализируем конкретный рейтиг
 function initRating(rating) {
   initRatingVars(rating);
-  setRatingActiveWidth();
   if (rating.classList.contains("rating__set")) {
     setRating(rating);
   }
@@ -2059,7 +2058,7 @@ function initRatingVars(rating) {
 }
 
 //Изменяем ширину активных звезд
-function setRatingActiveWidth(index = ratingValue.innerHTML) {
+function setRatingActiveWidth(index = ratingValue.innerHTML, ratingActive) {
   const ratingActiveWidth = index / 0.05;
   jQuery(ratingActive).width(`${ratingActiveWidth}%`);
   // ratingActive.style.width = `${ratingActiveWidth}%`;
@@ -2070,18 +2069,14 @@ function setRating(rating) {
   const ratingItems = rating.querySelectorAll(".rating__item");
   for (let index = 0; index < ratingItems.length; index++) {
     const ratingItem = ratingItems[index];
-    // console.log(ratingItem);
-    // console.log(ratingItem.value);
-
     ratingItem.addEventListener("mouseenter", function (e) {
+      console.log("ELEMENT:", e.target);
       //обновление переменных
-      initRatingVars(rating);
+      const ratingActiveBody = jQuery(e.target).closest(".rating__body").find(".rating__active");
+      console.log("QERY:", jQuery(e.target));
+      console.log(ratingActiveBody);
       //Обновление активных звезд
-      setRatingActiveWidth(ratingItem.value);
-    });
-    ratingItem.addEventListener("mouseleave", function (e) {
-      //Обновление активных звезд
-      setRatingActiveWidth();
+      setRatingActiveWidth(ratingItem.value, ratingActiveBody);
     });
     ratingItem.addEventListener("click", function (e) {
       //обновление переменных
@@ -2093,10 +2088,6 @@ function setRating(rating) {
         //Отправить на сервер
 
         setRatingValue(ratingValue, rating, masterId);
-      } else {
-        //Отобразить указанную оценку
-        // ratingValue.innerHTML = index + 1;
-        // setRatingActiveWidth();
       }
     });
   }
@@ -2117,17 +2108,7 @@ async function setRatingValue(ratingValue, rating, masterId) {
     // console.log(response);
 
     if (response.ok) {
-      // const result = await response.json();
-      // const newRating = result.rating[0].avgAmount.toFixed(1);
       getRating();
-      // console.log(newRating);
-      // console.log(result);
-
-      //Вывод нового среднего результата
-      // ratingValue.innerHTML = newRating;
-
-      //Обновление акивных звезд
-      setRatingActiveWidth();
       rating.classList.remove("rating__sending");
     } else {
       alert("Помилка");
